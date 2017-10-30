@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    
+	<ToggleButton
+	    android:id="@+id/ToggleButton_Gravity"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:textOn="@string/on_gravity"
+	    android:textOff="@string/off_gravity"
+	    />
+	<ToggleButton 
+	    android:id="@+id/ToggleButton_OnTouch"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/ToggleButton_Gravity"
+	    android:layout_centerHorizontal="true"
+	    android:textOn="@string/on_ontouch"
+	    android:textOff="@string/off_ontouch"
+	    />
+	<Button
+	    android:id="@+id/Button_AgainReadCode"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@+id/ToggleButton_OnTouch"
+	    android:text="@string/again_read_code"
+	    />
+	<EditText 
+	    android:id="@+id/EditText_LineUpdateTime"
+	    android:layout_width="100sp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50sp"
+	    android:layout_below="@+id/Button_AgainReadCode"
+	    android:hint="/30ms"
+	    />
+	<Button
+	    android:id="@+id/Button_LineUpdateTime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/EditText_LineUpdateTime"
+	    android:layout_below="@+id/Button_AgainReadCode"
+	    android:text="@string/line_update_time"
+	    />
+	<Button
+	    android:id="@+id/Button_Reset"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/Button_LineUpdateTime"
+	    android:layout_centerInParent="true"
+	    android:text="@string/reset"
+	    />
+</RelativeLayout>

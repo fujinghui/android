@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">雅道壁纸</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="off_gravity">打开重力</string>
+    <string name="on_gravity">关闭重力</string>
+    <string name="off_ontouch">启用屏幕触摸</string>
+    <string name="on_ontouch">关闭屏幕触摸</string>
+    <string name="again_read_code">重新读取代码</string>
+    <string name="reset">重置</string>
+    <string name="line_update_time">设置折线延时</string>
+</resources>
